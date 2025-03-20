@@ -8,7 +8,10 @@
 <body>
     <h2>Variação no Valor das Ações</h2>
     <h4>Formulário para monitorar a variação no valor das ações da empresa.</h4>
-    <form action="salvar_dados.php" method="post">
+    
+    <form action="/forms/salvar_dados.php" method="post">
+        <input type="hidden" name="tipo" value="variações-ações">
+
         <label for="data">Data da Análise:</label><br>
         <input type="date" name="data" required><br><br>
 
@@ -34,7 +37,6 @@
             <input type="radio" name="acao" value="Outro (especificar)"> Outro (especificar)
         </div><br>
 
-        <input type="hidden" name="tipo" value="chamado">
         <button type="submit">Enviar</button>
     </form>
 </body>

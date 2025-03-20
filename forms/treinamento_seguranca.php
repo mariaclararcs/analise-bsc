@@ -8,7 +8,10 @@
 <body>
     <h2>Treinamento de Colaboradores em Segurança</h2>
     <h4>Formulário para monitorar o número de colaboradores treinados em segurança cbernética.</h4>
-    <form action="salvar_dados.php" method="post">
+    
+    <form action="/forms/salvar_dados.php" method="post">
+        <input type="hidden" name="tipo" value="treinamento-colaboradores">
+
         <label for="data">Data do Treinamento:</label><br>
         <input type="date" name="data" required><br><br>
 
@@ -36,7 +39,6 @@
             <input type="radio" name="status" value="Pendente"> Pendente
         </div><br>
 
-        <input type="hidden" name="tipo" value="chamado">
         <button type="submit">Enviar</button>
     </form>
 </body>

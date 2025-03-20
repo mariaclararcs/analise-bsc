@@ -9,7 +9,9 @@
     <h2>Abertura de Nova Conta</h2>
     <h4>Formulário para abertura monitoramento na abertura de novas contas.</h4>
 
-    <form action="salvar_dados.php" method="post">
+    <form action="/forms/salvar_dados.php" method="post">
+        <input type="hidden" name="tipo" value="nova-conta">
+
         <label for="data">Data de Abertura:</label><br>
         <input type="date" name="data" required><br><br>
 
@@ -40,7 +42,6 @@
             <input type="radio" name="origem" value="Cliente existente em nova conta"> Cliente existente em nova conta
         </div><br>
 
-        <input type="hidden" name="tipo" value="chamado">
         <button type="submit">Enviar</button>
     </form>
 </body>

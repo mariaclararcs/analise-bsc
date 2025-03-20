@@ -10,6 +10,8 @@
     <h4>Formulário para abertura de chamados relacionados a segurança cibernética.</h4>
 
     <form action="/forms/salvar_dados.php" method="post">
+        <input type="hidden" name="tipo" value="abertura-chamado">
+
         <label for="data">Data de Abertura:</label><br>
         <input type="date" name="data" required><br><br>
 
@@ -36,7 +38,6 @@
             <input type="radio" name="prioridade" value="Baixa"> Baixa
         </div><br>
 
-        <input type="hidden" name="tipo" value="chamado">
         <button type="submit">Enviar</button>
     </form>
 </body>

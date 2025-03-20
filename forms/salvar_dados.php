@@ -1,10 +1,16 @@
 <?php
-require 'vendor/autoload.php';
+require __DIR__ . '/../vendor/autoload.php';
 
 use PhpOffice\PhpSpreadsheet\IOFactory;
 use PhpOffice\PhpSpreadsheet\Spreadsheet;
 
-$arquivo = 'excel/dados.xlsx';
+$diretorio = __DIR__ . '/../excel';
+$arquivo = $diretorio . '/dados.xlsx';
+
+// Verifica se a pasta "excel" existe, se não, cria
+if (!is_dir($diretorio)) {
+    mkdir($diretorio, 0777, true);
+}
 
 // Se o arquivo já existir, carregue-o, senão crie um novo
 if (file_exists($arquivo)) {

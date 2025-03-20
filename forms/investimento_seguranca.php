@@ -8,7 +8,10 @@
 <body>
     <h2>Investimento em Segurança da Informação</h2>
     <h4>Formulário para monitorar os investimentos na área de segurança da informação.</h4>
-    <form action="salvar_dados.php" method="post">
+    
+    <form action="/forms/salvar_dados.php" method="post">
+        <input type="hidden" name="tipo" value="investimento-segurança">
+
         <label for="data">Data do Investimento:</label><br>
         <input type="date" name="data" required><br><br>
 
@@ -33,7 +36,6 @@
             <input type="radio" name="area" value="Outro (especificar)"> Outro (especificar)
         </div><br>
 
-        <input type="hidden" name="tipo" value="chamado">
         <button type="submit">Enviar</button>
     </form>
 </body>
