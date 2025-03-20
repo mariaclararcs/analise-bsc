@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Análise BSC</title>
+</head>
+<body>
+    <h2>Treinamento de Colaboradores em Segurança</h2>
+    <h4>Formulário para monitorar o número de colaboradores treinados em segurança cbernética.</h4>
+    <form action="salvar_dados.php" method="post">
+        <label for="data">Data do Treinamento:</label><br>
+        <input type="date" name="data" required><br><br>
+
+        <label for="nome">Nome do Colaborador:</label><br>
+        <input type="text" name="nome" required><br><br>
+
+        <label for="cargo">Cargo do Colaborador:</label><br>
+        <input type="text" name="cargo" required><br><br>
+
+        <label for="departamento">Departamento do Colaborador:</label><br>
+        <input type="text" name="departamento" required><br><br>
+
+        <label for="tipo">Tipo de Treinamento:</label><br>
+        <div>
+            <input type="radio" name="tipo" value="Segurança básica" required> Segurança básica<br>
+            <input type="radio" name="tipo" value="Detecção de phishing"> Detecção de phishing<br>
+            <input type="radio" name="tipo" value="Gestão de incidentes"> Gestão de incidentes<br>
+            <input type="radio" name="tipo" value="Resposta de incidentes"> Resposta de incidentes<br>
+            <input type="radio" name="tipo" value="Outro (especificar)"> Outro (especificar)
+        </div><br>
+
+        <label for="status">Status:</label><br>
+        <div>
+            <input type="radio" name="status" value="Concluída" required> Concluída
+            <input type="radio" name="status" value="Pendente"> Pendente
+        </div><br>
+
+        <input type="hidden" name="tipo" value="chamado">
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+</html>

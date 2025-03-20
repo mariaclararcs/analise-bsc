@@ -6,9 +6,13 @@
     <title>Análise BSC</title>
 </head>
 <body>
-    <h1>Olá, mundo!</h1>
-    <?php
-        echo "index.php";
-    ?>
+    <h2>Escolha um formulário</h2>
+    <ul>
+        <li><a href="/forms/chamados.php"><button>Abertura de chamados</button></a></li>
+        <li><a href="/forms/nova_conta.php"><button>Abertura de novas contas</button></a></li>
+        <li><a href="/forms/investimento_seguranca.php"><button>Investimento em segurança</button></a></li>
+        <li><a href="/forms/treinamento_seguranca.php"><button>Treinamento de colaboradores em segurança</button></a></li>
+        <li><a href="/forms/variacao_acoes.php"><button>Variação no valor das ações</button></a></li>
+    </ul>
 </body>
 </html>

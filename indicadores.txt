@@ -1,0 +1,103 @@
+indicadores:
+- abertura de chamados por mês
+- abertura de novas contas
+- custo de investimento em segurança da informação
+- quantidade de colaboradores treinados em segurança cibernética 
+- aumento do valor das ações da empresa
+ 
+1. Formulário para Abertura de Chamados por Mês
+Objetivo: Monitorar o número de chamados abertos relacionados a problemas de segurança cibernética.
+ 
+Campos:
+Data: [Data do chamado]
+Descrição do Problema: [Breve descrição sobre o problema de segurança]
+Categoria do Chamado:
+- Vulnerabilidade de Sistema
+- Falha em Protocolos de Segurança
+- Incidente de Phishing
+- Outros (especificar) ______________
+Status do Chamado:
+- Resolvido
+- Em andamento
+- Pendente
+Equipe Responsável: [Nome da equipe ou colaborador responsável]
+Prioridade:
+- Alta
+- Média
+- Baixa
+ 
+2. Formulário para Abertura de Novas Contas
+Objetivo: Monitorar o número de novas contas abertas, que pode estar diretamente relacionado ao impacto da violação na confiança dos clientes.
+ 
+Campos:
+Data de Abertura: [Data em que a conta foi aberta]
+Tipo de Conta:
+- Conta Pessoal
+- Conta Empresarial
+- Conta Corporativa
+Canal de Abertura:
+- Online (site)
+- Aplicativo Móvel
+- Atendimento Telefônico
+- Outros (especificar) ______________
+Status de Verificação:
+- Completa
+- Pendente
+Origem do Cliente:
+- Novo Cliente
+- Cliente Existente com Nova Conta
+ 
+3. Formulário para Investimento em Segurança da Informação
+Objetivo: Monitorar os custos de investimento em segurança da informação, especialmente em resposta à violação de dados.
+ 
+Campos:
+Data do Investimento: [Data do investimento em segurança]
+Categoria de Investimento:
+- Compra de Software de Segurança
+- Treinamento de Colaboradores
+- Consultoria Externa
+- Atualização de Infraestrutura
+- Outros (especificar) ______________
+Valor do Investimento: [Valor em R$]
+Área Beneficiada:
+- Sistema de Autenticação
+- Monitoramento de Rede
+- Criptografia de Dados
+- Proteção contra Malware
+- Outros (especificar) ______________
+ 
+4. Formulário para Quantidade de Colaboradores Treinados em Segurança Cibernética
+Objetivo: Monitorar o número de colaboradores treinados em segurança cibernética, com o objetivo de reduzir o risco de falhas internas e aumentar a conscientização.
+ 
+Campos:
+Data do Treinamento: [Data em que o treinamento foi realizado]
+Nome do Colaborador: [Nome completo do colaborador]
+Cargo: [Cargo do colaborador]
+Departamento: [Departamento do colaborador]
+Tipo de Treinamento:
+- Segurança Básica
+- Detecção de Phishing
+- Gestão de Incidentes
+- Resposta a Incidentes
+- Outros (especificar) ______________
+Status do Treinamento:
+- Concluído
+- Pendente
+ 
+5. Formulário para Aumento do Valor das Ações da Empresa
+Objetivo: Monitorar o impacto das melhorias implementadas na segurança sobre o valor das ações da empresa.
+ 
+Campos:
+Data de Análise: [Data de análise]
+Valor das Ações no Período: [Valor das ações em R$]
+Variação em %: [Percentual de aumento ou diminuição do valor das ações]
+Fatores Impactantes:
+- Melhora na Segurança da Informação
+- Lançamento de Novos Produtos
+- Recuperação de Confiança dos Clientes
+- Outros (especificar) ______________
+Ação de Comunicação:
+- Comunicados à Imprensa
+- Relatórios aos Investidores
+- Atualização no Website Corporativo
+- Outros (especificar) ______________
