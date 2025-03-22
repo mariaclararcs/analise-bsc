@@ -1,4 +1,4 @@
-# Análise BSC
+# 📊 Análise BSC
 
 ### Cenário da atividade
 
@@ -31,7 +31,7 @@ Este projeto utiliza PHP para processar formulários e armazenar dados em um arq
 - Servidor local como **XAMPP**, **WAMP** ou similares.
 - **Composer** instalado para gerenciar dependências.
 
-**Instalação do PHP:**
+💻 **Instalação do PHP:**
 
 Caso não tenha o PHP instalado, faça o download pelo site oficial:
 ([PHP](www.php.net/downloads))
@@ -39,7 +39,7 @@ Caso não tenha o PHP instalado, faça o download pelo site oficial:
 Se for utilizar o XAMPP, faça o download pelo site oficial:
 ([XAMPP](https://www.apachefriends.org/index.html))
 
-**Como executar:**
+▶️ **Como executar:**
 
 Caso já tenha o PHP instalado, basta navegar até a pasta do projeto no terminal e rodar:
 
@@ -55,14 +55,14 @@ Se estiver usando o XAMPP, basta mover o projeto para a pasta `htdocs` e acessar
 
 O projeto utiliza a biblioteca **PhpSpreadsheet** para manipular planilhas Excel.
 
-**Instalação da biblioteca:**
+📚 **Instalação da biblioteca:**
 
 No terminal, execute:
 ```
 composer require phpoffice/phpspreadsheet
 ```
 
-**Como funciona:**
+⚙️ **Como funciona:**
 
 - Os dados dos formulários são coletados via **POST** e armazenados em um arquivo Excel (xlsx).
 - Se o arquivo já existir, ele é atualizado com novos dados.
