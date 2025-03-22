@@ -4,10 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Análise BSC</title>
+    <link rel="stylesheet" href="/styles/style.css">
 </head>
 <body>
     <h2>Treinamento de Colaboradores em Segurança</h2>
-    <h4>Formulário para monitorar o número de colaboradores treinados em segurança cbernética.</h4>
+    <span>Formulário para monitorar o número de colaboradores treinados em segurança cbernética.</span><br><br>
     
     <form action="/forms/salvar_dados.php" method="post">
         <input type="hidden" name="tipo" value="treinamento-colaboradores">
@@ -31,6 +32,7 @@
             <input type="radio" name="tipo" value="Gestão de incidentes"> Gestão de incidentes<br>
             <input type="radio" name="tipo" value="Resposta de incidentes"> Resposta de incidentes<br>
             <input type="radio" name="tipo" value="Outro (especificar)"> Outro (especificar)
+            <input type="text" name="tipoOutro">
         </div><br>
 
         <label for="status">Status:</label><br>
@@ -39,7 +41,7 @@
             <input type="radio" name="status" value="Pendente"> Pendente
         </div><br>
 
-        <button type="submit">Enviar</button>
+        <button type="submit">Enviar Formulário</button>
     </form>
 </body>
 </html>

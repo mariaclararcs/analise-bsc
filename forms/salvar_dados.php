@@ -35,6 +35,20 @@ foreach ($dados as $dado) {
 // Salvar o arquivo
 $writer = IOFactory::createWriter($planilha, 'Xlsx');
 $writer->save($arquivo);
-
-echo "Dados salvos com sucesso!";
 ?>
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Análise BSC</title>
+    <link rel="stylesheet" href="/styles/style.css">
+</head>
+<body>
+    <h2>Dados salvos com sucesso!</h2>
+    <span>Os dados do formulário foram salvos em um arquivo xlsx.</span><br><br>
+
+    <a href="/"><button>Voltar à página principal</button></a>
+</body>
+</html>

@@ -4,10 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Análise BSC</title>
+    <link rel="stylesheet" href="/styles/style.css">
 </head>
 <body>
     <h2>Variação no Valor das Ações</h2>
-    <h4>Formulário para monitorar a variação no valor das ações da empresa.</h4>
+    <span>Formulário para monitorar a variação no valor das ações da empresa.</span><br><br>
     
     <form action="/forms/salvar_dados.php" method="post">
         <input type="hidden" name="tipo" value="variações-ações">
@@ -27,6 +28,7 @@
             <input type="radio" name="fatores" value="Lançamento de novos produtos"> Lançamento de novos produtos<br>
             <input type="radio" name="fatores" value="Recuperação da confiança dos clientes"> Recuperação da confiança dos clientes<br>
             <input type="radio" name="fatores" value="Outro (especificar)"> Outro (especificar)
+            <input type="text" name="fatoresOutro">
         </div><br>
 
         <label for="acao">Ação de Comunicação:</label><br>
@@ -35,9 +37,10 @@
             <input type="radio" name="acao" value="Relatórios aos investidores"> Relatórios aos investidores<br>
             <input type="radio" name="acao" value="Atualização no website corporativo"> Atualização no website corporativo<br>
             <input type="radio" name="acao" value="Outro (especificar)"> Outro (especificar)
+            <input type="text" name="acaoOutro">
         </div><br>
 
-        <button type="submit">Enviar</button>
+        <button type="submit">Enviar Formulário</button>
     </form>
 </body>
 </html>

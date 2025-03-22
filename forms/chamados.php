@@ -4,10 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Análise BSC</title>
+    <link rel="stylesheet" href="/styles/style.css">
 </head>
 <body>
     <h2>Abertura de Chamados</h2>
-    <h4>Formulário para abertura de chamados relacionados a segurança cibernética.</h4>
+    <span>Formulário para abertura de chamados relacionados a segurança cibernética.</span><br><br>
 
     <form action="/forms/salvar_dados.php" method="post">
         <input type="hidden" name="tipo" value="abertura-chamado">
@@ -28,8 +29,8 @@
             <input type="radio" name="status" value="Pendente" required> Pendente
         </div><br>
 
-        <label for="equipe">Equipe Responsável:</label><br>
-        <input type="text" name="equipe" required><br><br>
+        <label for="responsavel">Responsável:</label><br>
+        <input type="text" name="responsavel" required><br><br>
 
         <label for="prioridade">Prioridade:</label><br>
         <div>
@@ -38,7 +39,7 @@
             <input type="radio" name="prioridade" value="Baixa"> Baixa
         </div><br>
 
-        <button type="submit">Enviar</button>
+        <button type="submit">Enviar Formulário</button>
     </form>
 </body>
 </html>

@@ -1,9 +1,9 @@
-indicadores:
-- abertura de chamados por mês
-- abertura de novas contas
-- custo de investimento em segurança da informação
-- quantidade de colaboradores treinados em segurança cibernética 
-- aumento do valor das ações da empresa
+Indicadores:
+- Abertura de chamados por mês
+- Abertura de novas contas
+- Custo de investimento em segurança da informação
+- Quantidade de colaboradores treinados em segurança cibernética 
+- Aumento do valor das ações da empresa
  
 1. Formulário para Abertura de Chamados por Mês
 Objetivo: Monitorar o número de chamados abertos relacionados a problemas de segurança cibernética.
