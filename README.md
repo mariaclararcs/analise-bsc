@@ -34,10 +34,10 @@ Este projeto utiliza PHP para processar formulários e armazenar dados em um arq
 💻 **Instalação do PHP:**
 
 Caso não tenha o PHP instalado, faça o download pelo site oficial:
-([PHP](www.php.net/downloads))
+(www.php.net/downloads)
 
 Se for utilizar o XAMPP, faça o download pelo site oficial:
-([XAMPP](https://www.apachefriends.org/index.html))
+(https://www.apachefriends.org/index.html)
 
 ▶️ **Como executar:**
 
