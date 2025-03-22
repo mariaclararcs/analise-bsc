@@ -1,6 +1,6 @@
 # 📊 Análise BSC
 
-### Cenário da atividade
+### Cenário da atividade proposta
 
 **Violação de dados em uma empresa de tecnologia.**
 
@@ -17,7 +17,7 @@ O **Balanced Scorecard (BSC)** é uma metodologia de gestão estratégica que pe
 3. **Processos Internos:** Analisa a eficiência dos processos operacionais e de segurança.
 4. **Aprendizado e Crescimento:** Observa o desenvolvimento de talentos, inovação e melhorias contínuas.
 
-Com base nesse modelo, a **TechSecure** busca aplicar a metodologia BSC para fortalecer sua governança de TI, minimizar riscos e restaurar a confiança do mercado.
+Com base nesse modelo, o projeto busca aplicar a metodologia BSC para fortalecer sua governança de TI, coletando os dados baseados nos Indicadores-chave de Desempenho (KPIs) para monitorar o progresso.
 
 ---
 
