@@ -27,7 +27,7 @@ Este projeto utiliza PHP para processar formulários e armazenar dados em um arq
 
 ### Requisitos
 
-- Versão do **PHP**: 8.1 ou superior.
+- Versão do **PHP**: 8.2 ou superior.
 - Servidor local como **XAMPP**, **WAMP** ou similares.
 - **Composer** instalado para gerenciar dependências.
 
