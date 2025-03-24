@@ -11,20 +11,20 @@
     <span>Formulário para monitorar a variação no valor das ações da empresa.</span><br><br>
     
     <form action="/forms/salvar_dados.php" method="post">
-        <input type="hidden" name="tipo" value="variações-ações">
+        <input type="hidden" name="tipo" value="variação-ações">
 
         <label for="data">Data da Análise:</label><br>
         <input type="date" name="data" required><br><br>
 
-        <label for="valor">Valor das Ações no Período:</label><br>
-        <input type="number" name="valor" required><br><br>
+        <label for="valor">Valor das Ações:</label><br>
+        <input type="number" name="valor" step="0.01" min="0" required><br><br>
 
         <label for="variacao">Variação %:</label><br>
-        <input type="number" name="variacao" required><br><br>
+        <input type="number" name="variacao" step="0.01" min="0" required><br><br>
 
         <label for="fatores">Fatores Impactantes:</label><br>
         <div>
-            <input type="radio" name="fatores" value="Melhora na segurança da informação" required> Melhora na segurança da informação<br>
+            <input type="radio" name="fatores" value="Melhora na segurança da informação"> Melhora na segurança da informação<br>
             <input type="radio" name="fatores" value="Lançamento de novos produtos"> Lançamento de novos produtos<br>
             <input type="radio" name="fatores" value="Recuperação da confiança dos clientes"> Recuperação da confiança dos clientes<br>
             <input type="radio" name="fatores" value="Outro (especificar)"> Outro (especificar)

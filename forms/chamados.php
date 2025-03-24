@@ -20,7 +20,7 @@
         <input type="text" name="nome" required><br><br>
 
         <label for="descricao">Descrição do Problema:</label><br>
-        <textarea name="descricao" required></textarea><br><br>
+        <textarea name="descricao"></textarea><br><br>
 
         <label for="status">Status:</label><br>
         <div>

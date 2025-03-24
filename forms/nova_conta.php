@@ -8,7 +8,7 @@
 </head>
 <body>
     <h2>Abertura de Nova Conta</h2>
-    <span>Formulário para abertura monitoramento na abertura de novas contas.</span><br><br>
+    <span>Formulário para abertura monitoramento na abertura de novas contas de clientes.</span><br><br>
 
     <form action="/forms/salvar_dados.php" method="post">
         <input type="hidden" name="tipo" value="nova-conta">
@@ -16,11 +16,11 @@
         <label for="data">Data de Abertura:</label><br>
         <input type="date" name="data" required><br><br>
 
-        <label for="tipo">Tipo de Conta:</label><br>
+        <label for="conta">Tipo de Conta:</label><br>
         <div>
-            <input type="radio" name="tipo" value="Pessoal" required> Pessoal
-            <input type="radio" name="tipo" value="Empresarial"> Empresarial
-            <input type="radio" name="tipo" value="Corporativa"> Corporativa
+            <input type="radio" name="conta" value="Pessoal" required> Pessoal
+            <input type="radio" name="conta" value="Empresarial"> Empresarial
+            <input type="radio" name="conta" value="Corporativa"> Corporativa
         </div><br>
 
         <label for="canal">Canal de Abertura:</label><br>

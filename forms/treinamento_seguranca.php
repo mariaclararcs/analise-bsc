@@ -8,7 +8,7 @@
 </head>
 <body>
     <h2>Treinamento de Colaboradores em Segurança</h2>
-    <span>Formulário para monitorar o número de colaboradores treinados em segurança cbernética.</span><br><br>
+    <span>Formulário para monitorar o número de colaboradores treinados em segurança cibernética.</span><br><br>
     
     <form action="/forms/salvar_dados.php" method="post">
         <input type="hidden" name="tipo" value="treinamento-colaboradores">
@@ -25,14 +25,14 @@
         <label for="departamento">Departamento do Colaborador:</label><br>
         <input type="text" name="departamento" required><br><br>
 
-        <label for="tipo">Tipo de Treinamento:</label><br>
+        <label for="treinamento">Tipo de Treinamento:</label><br>
         <div>
-            <input type="radio" name="tipo" value="Segurança básica" required> Segurança básica<br>
-            <input type="radio" name="tipo" value="Detecção de phishing"> Detecção de phishing<br>
-            <input type="radio" name="tipo" value="Gestão de incidentes"> Gestão de incidentes<br>
-            <input type="radio" name="tipo" value="Resposta de incidentes"> Resposta de incidentes<br>
-            <input type="radio" name="tipo" value="Outro (especificar)"> Outro (especificar)
-            <input type="text" name="tipoOutro">
+            <input type="radio" name="treinamento" value="Segurança básica" required> Segurança básica<br>
+            <input type="radio" name="treinamento" value="Detecção de phishing"> Detecção de phishing<br>
+            <input type="radio" name="treinamento" value="Gestão de incidentes"> Gestão de incidentes<br>
+            <input type="radio" name="treinamento" value="Resposta de incidentes"> Resposta de incidentes<br>
+            <input type="radio" name="treinamento" value="Outro (especificar)"> Outro (especificar)
+            <input type="text" name="treinamentoOutro">
         </div><br>
 
         <label for="status">Status:</label><br>
