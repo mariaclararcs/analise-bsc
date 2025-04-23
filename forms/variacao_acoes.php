@@ -24,7 +24,7 @@
 
         <label for="fatores">Fatores Impactantes:</label><br>
         <div>
-            <input type="radio" name="fatores" value="Melhora na segurança da informação"> Melhora na segurança da informação<br>
+            <input type="radio" name="fatores" value="Mudança na segurança da informação" required> Mudança na segurança da informação<br>
             <input type="radio" name="fatores" value="Lançamento de novos produtos"> Lançamento de novos produtos<br>
             <input type="radio" name="fatores" value="Recuperação da confiança dos clientes"> Recuperação da confiança dos clientes<br>
             <input type="radio" name="fatores" value="Outro (especificar)"> Outro (especificar)
@@ -33,11 +33,9 @@
 
         <label for="acao">Ação de Comunicação:</label><br>
         <div>
-            <input type="radio" name="acao" value="Cominicados à imprensa" required> Cominicados à imprensa<br>
+            <input type="radio" name="acao" value="Comunicados à imprensa" required> Comunicados à imprensa<br>
             <input type="radio" name="acao" value="Relatórios aos investidores"> Relatórios aos investidores<br>
             <input type="radio" name="acao" value="Atualização no website corporativo"> Atualização no website corporativo<br>
-            <input type="radio" name="acao" value="Outro (especificar)"> Outro (especificar)
-            <input type="text" name="acaoOutro">
         </div><br>
 
         <button type="submit">Enviar Formulário</button>

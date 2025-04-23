@@ -37,7 +37,7 @@
 
         <label for="status">Status:</label><br>
         <div>
-            <input type="radio" name="status" value="Concluída" required> Concluída
+            <input type="radio" name="status" value="Concluído" required> Concluído
             <input type="radio" name="status" value="Pendente"> Pendente
         </div><br>
 

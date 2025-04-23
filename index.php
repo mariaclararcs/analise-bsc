@@ -12,7 +12,6 @@
 
     <ul>
         <li><a href="/forms/chamados.php"><button>Abertura de chamados</button></a></li>
-        <li><a href="/forms/nova_conta.php"><button>Abertura de novas contas</button></a></li>
         <li><a href="/forms/investimento_seguranca.php"><button>Investimento em segurança</button></a></li>
         <li><a href="/forms/treinamento_seguranca.php"><button>Treinamento de colaboradores</button></a></li>
         <li><a href="/forms/variacao_acoes.php"><button>Variação no valor das ações</button></a></li>
